@@ -1,7 +1,10 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
-
+    "color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+    "draw_white_space": "all",
+    "hot_exit": false,
+    "ignored_packages": [],
+    "indent_to_bracket": true,
     "remember_open_files": false,
-
-    "show_full_path": true
+    "show_full_path": true,
+    "translate_tabs_to_spaces": true
 }
