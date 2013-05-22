@@ -1,7 +1,16 @@
 {
 	"installed_packages":
 	[
+		"CoffeeScript",
+		"EditorConfig",
+		"Jade",
+		"Jade Snippets",
+		"Markdown Preview",
+		"Nodejs",
 		"Package Control",
+		"Stylus",
+		"SublimeJava",
+		"Underscore.js Snippets",
 		"VintageEx"
 	]
 }
