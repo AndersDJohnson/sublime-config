@@ -3,6 +3,8 @@
 	[
 		"CoffeeScript",
 		"EditorConfig",
+		"HTML Mustache",
+		"INI",
 		"Jade",
 		"Jade Snippets",
 		"Markdown Preview",
