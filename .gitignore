@@ -1,5 +1,6 @@
 Installed\ Packages
 Pristine\ Packages
+Backup
 Settings/*.sublime_session
 *.pyc
 *.cache
