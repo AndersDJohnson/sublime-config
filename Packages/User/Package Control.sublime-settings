@@ -1,12 +1,15 @@
 {
+	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"Chai Completions",
 		"CoffeeScript",
 		"EditorConfig",
 		"HTML Mustache",
 		"INI",
 		"Jade",
 		"Jade Snippets",
+		"LESS",
 		"Markdown Preview",
 		"Nodejs",
 		"Package Control",

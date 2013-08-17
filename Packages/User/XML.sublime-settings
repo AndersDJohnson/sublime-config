@@ -1,3 +1,12 @@
 {
-  "tab_size": 2
+	"extensions":
+	[
+		"xml",
+		"xsd",
+		"xslt",
+		"svg",
+		"xul",
+		"rdf"
+	],
+	"tab_size": 2
 }
