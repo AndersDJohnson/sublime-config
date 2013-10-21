@@ -1,18 +1,17 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
 	"draw_white_space": "all",
-	"font_size": 8,
+	"font_size": 9,
 	"hot_exit": false,
 	"ignored_packages":
 	[
 		"Nodejs",
 		"Underscore.js Snippets",
 		"Jade",
-		"LESS",
-		"Stylus",
-		"Jade Snippets",
-		"EditorConfig",
 		"Markdown Preview",
+		"Stylus",
+		"EditorConfig",
+		"Jade Snippets",
 		"HTML Mustache",
 		"INI"
 	],
