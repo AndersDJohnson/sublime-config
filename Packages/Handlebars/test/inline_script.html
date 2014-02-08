@@ -70,7 +70,12 @@ categories:
 			{{#list nav id="nav-bar" class="top" bubbles=false}}
 				<a href="{{url}}">{{title}}</a>
 			{{/list}}
+			{{! TODO: binding attributes }}
 			<button class="tiny button" {{action addToCampaign id="add-campaign" bubbles=false}}>Choose</button>
+			<p class="{{class}}">Filler</p>
+			<a class="pull-left" {{bind-attr href=link}}>
+				<img {{bind-attr src=this.thumbLink alt=this.name}} class="media-object">
+			</a>
 	</script>
 
 	<script type="text/javascript">
@@ -82,7 +87,14 @@ categories:
 	<script type="text/template" id="template-small-third">
 		<div class="{{class}}" id="{{myId}}">
 			<div class="content_container">
-				{{{content}}}
+				{{! TODO: whitespace control }}
+				{{~foo~}}{{~foo}}{{foo~}}
+				{{~&foo~}}{{~{foo}~}}
+				{{~#if foo~}} bar {{~/if~}}
+				{{~^if foo~}} bar {{~/if~}}
+				{{#if foo~}} bar {{~^~}} baz {{~/if}}
+				{{#if foo~}} bar {{~else~}} baz {{~/if}}
+				foo {{~> dude~}} {{> dude~}}
 			</div>
 	</script>
 </body>

@@ -8,12 +8,13 @@
 		"Nodejs",
 		"Underscore.js Snippets",
 		"Jade",
-		"Markdown Preview",
 		"Stylus",
-		"EditorConfig",
 		"Jade Snippets",
+		"EditorConfig",
+		"Markdown Preview",
 		"HTML Mustache",
-		"INI"
+		"INI",
+		"EasySettings"
 	],
 	"remember_open_files": false,
 	"show_full_path": true,

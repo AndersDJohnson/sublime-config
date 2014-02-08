@@ -1,7 +1,7 @@
 SublimeHTMLMustache
 ===================
 
-Adds HTML [Mustache][2] as a language to [Sublime Text 2][1], with snippets. Syntax file obtained from [mwunsch's sublime repo][3]. Supports both `.mustache` and `.hgn` ([Hogan](http://twitter.github.io/hogan.js)) files.
+Adds HTML [Mustache][2] as a language to [Sublime Text 2][1], with snippets. Syntax file obtained from [mwunsch's sublime repo][3]. Supports `.mustache`, `.hjs`, and `.hgn` ([Hogan](http://twitter.github.io/hogan.js)) files.
 
 
 How to Use
@@ -45,7 +45,7 @@ Set syntax to "HTML Mustache". Use the following snippets:
         </tr>
         <tr>
             <td><code>mn</code> ('Mustache Not')</td>
-            <td><code>{{# variable }}what_to_do_if_not{{/ variable }}</code></td>
+            <td><code>{{^ variable }}what_to_do_if_not{{/ variable }}</code></td>
         </tr>
         <tr>
             <td><code>mnb</code> ('Mustache Not Block')</td>
