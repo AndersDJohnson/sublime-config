@@ -12,10 +12,6 @@
 		<string>template</string>
 		<string>tmpl</string>
 	</array>
-	<key>foldingStartMarker</key>
-	<string>(?x)(&lt;(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)\b.*?&gt;|&lt;!--(?!.*--&gt;)|\{\s*($|\?&gt;\s*$|//|/\*(.*\*/\s*$|(?!.*?\*/)))|(\{\{\#)|^[^\S\n]*(```)[^\S\n]*(.+?)?$)</string>
-	<key>foldingStopMarker</key>
-	<string>(?x)(&lt;/(?i:head|body|table|thead|tbody|tfoot|tr|div|select|fieldset|style|script|ul|ol|form|dl)&gt;|^\s*--&gt;|(^|\s)\}|(\{\{/)|^[^\S\n]*(```)[^\S\n]*$)</string>
 	<key>name</key>
 	<string>Handlebars</string>
 	<key>patterns</key>
@@ -114,7 +110,7 @@
 		<key>block_helper</key>
 		<dict>
 			<key>begin</key>
-			<string>(\{\{\#)([-a-zA-Z0-9_\./]+)\s+([-a-zA-Z0-9_\./]+)*</string>
+			<string>(\{\{~?\#)([-a-zA-Z0-9_\./]+)\s+(@?[-a-zA-Z0-9_\./]+)*</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -134,7 +130,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(\}\})</string>
+			<string>(~?\}\})</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>1</key>
@@ -212,7 +208,7 @@
 		<key>end_block</key>
 		<dict>
 			<key>begin</key>
-			<string>(\{\{/)([a-zA-Z0-9_\.-]+)\s*</string>
+			<string>(\{\{~?/)([a-zA-Z0-9_\.-]+)\s*</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -227,7 +223,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(\}\})</string>
+			<string>(~?\}\})</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>1</key>
@@ -237,7 +233,7 @@
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta.function.block.end.handlebars.sproutcore</string>
+			<string>meta.function.block.end.handlebars</string>
 			<key>patterns</key>
 			<array>
 			</array>
@@ -823,7 +819,7 @@
 		<key>partial_and_var</key>
 		<dict>
 			<key>begin</key>
-			<string>(\{\{\{*&gt;*)\s*([-a-zA-Z0-9_\./]+)*</string>
+			<string>(\{\{~?\{*&gt;*)\s*(@?[-a-zA-Z0-9_\./]+)*</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
@@ -838,7 +834,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(\}\}\}*)</string>
+			<string>(~?\}\}\}*)</string>
 			<key>endCaptures</key>
 			<dict>
 				<key>1</key>
@@ -997,7 +993,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;='|")</string>
+			<string>(?&lt;='|"|)</string>
 			<key>name</key>
 			<string>entity.other.attribute-name.html</string>
 			<key>patterns</key>
@@ -1030,7 +1026,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>(?&lt;='|")</string>
+			<string>(?&lt;='|"|)</string>
 			<key>name</key>
 			<string>meta.attribute-with-value.id.html</string>
 			<key>patterns</key>
