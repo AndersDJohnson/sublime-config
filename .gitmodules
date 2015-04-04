@@ -1,9 +1,0 @@
-[submodule "Packages/CoffeeScript"]
-	path = Packages/CoffeeScript
-	url = git://github.com/jashkenas/coffee-script-tmbundle
-[submodule "Packages/Jade"]
-	path = Packages/Jade
-	url = https://github.com/miksago/jade-tmbundle.git
-[submodule "Packages/Stylus"]
-	path = Packages/Stylus
-	url = https://github.com/LearnBoost/stylus.git
