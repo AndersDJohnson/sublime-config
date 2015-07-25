@@ -8,3 +8,5 @@ Settings/*.sublime_session
 *.pyc
 *.cache
 Packages/User/Package Control.last-run
+
+.DS_Store
