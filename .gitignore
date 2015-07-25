@@ -1,6 +1,7 @@
 Packages/*
 Packages/*/
 !Packages/User/
+!Packages/Package Control
 Installed\ Packages
 Pristine\ Packages
 Backup
