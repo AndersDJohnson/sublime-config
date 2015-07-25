@@ -5,16 +5,17 @@
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Nodejs",
-		"Underscore.js Snippets",
-		"Jade",
 		"EasySettings",
-		"Stylus",
-		"Jade Snippets",
 		"EditorConfig",
-		"Markdown Preview",
 		"HTML Mustache",
-		"INI"
+		"INI",
+		"Jade",
+		"Jade Snippets",
+		"Markdown Preview",
+		"Nodejs",
+		"Stylus",
+		"Underscore.js Snippets",
+		"SublimeJava"
 	],
 	"remember_open_files": false,
 	"show_full_path": true,
