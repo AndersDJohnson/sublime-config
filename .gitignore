@@ -1,3 +1,6 @@
+Packages/*
+Packages/*/
+!Packages/User/
 Installed\ Packages
 Pristine\ Packages
 Backup
